@@ -116,7 +116,7 @@ TRC20: TBY7e7YUQCG7wEH3PA8pk6fQPwpshb8Z55
 6.  #### 添加取邮件标题的规则
     ![Alt text](image/mailparser_data_parsing_rules_subject.png)
 7.  #### 添加筛选发件人邮箱地址的规则
-    ![Alt text](image/mailparser_data_parsing_rules_subject.png)
+    ![Alt text](image/mailparser_data_parsing_rules_sender.png)
 8.  #### 筛选出收件人邮箱地址的规则  
     ![Alt text](image/mailparser_data_parsing_rules_receiver.png)
 9.  #### 现在你的规则列表看起来应该是这样子的  
