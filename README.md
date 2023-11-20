@@ -37,7 +37,7 @@ TRC20: TBY7e7YUQCG7wEH3PA8pk6fQPwpshb8Z55
 | [IBM Cloud](https://www.ibm.com/cloud/learn/serverless)   | 无限     | 400,000 GB-秒   | 不明     | 有         | 东京                  |             |
 | ~~[阿里云](https://cn.aliyun.com/product/fc?from_alibabacloud=)~~      | ~~100万~~   | ~~400,000 CU-秒~~   | 无      | 无         | ~~大陆,香港,东京,新加坡~~ |    **不再免费**          |
 | ~~[腾讯云](https://cloud.tencent.com/product/scf)~~       | ~~10万~~    | ~~20,000 GB-秒~~    | ~~0.5GB~~   | ~~无~~         | ~~中国、香港、新加坡~~     | **不再免费**      |
-| [百度云](https://cloud.baidu.com/product/cfc.html)       | 100万   | 400,000 GB-秒   | 1GB     | 无         | 仅大陆                  |             |
+| ~~[百度云](https://cloud.baidu.com/product/cfc.html)~~       | ~~100万~~   | ~~400,000 GB-秒~~   | ~~1GB~~     | 无         | ~~仅大陆~~                  | **[不再免费](https://cloud.baidu.com/doc/CFC/s/Tl0sz7k6j#%E5%85%8D%E8%B4%B9%E9%A2%9D%E5%BA%A6)**            |
 | [华为云](https://www.huaweicloud.com/product/functiongraph.html)       | 100万   | 400,000 GB-秒   | 不明     | 无         | 大陆,泰国,香港       |             |
 | [**Github Action**](https://docs.github.com/actions)       | 不明   | 不明   | 不明     | 无         | 不明       |             |
 
