@@ -52,7 +52,6 @@ user_agent = (
 desp = ""  # 日志信息
 
 def log(info: str):
-    # 打印并记录日志信息，附带 emoji 以增加可读性
     emoji_map = {
         "正在续费": "🔄",
         "检测到": "🔍",
@@ -111,7 +110,7 @@ def login_retry(*args, **kwargs):
 # 验证码解决器
 def captcha_solver(captcha_image_url: str, session: requests.session) -> dict:
     # TrueCaptcha API 文档: https://apitruecaptcha.org/api
-    # 每天免费使用 100 次请求。
+    # 似乎已经无法免费试用,但是充值1刀可以识别3000个二维码,足够用一阵子了
 
     response = session.get(captcha_image_url)
     encoded_string = base64.b64encode(response.content)

@@ -24,6 +24,25 @@ AutoEUServerless 是一个基于腾讯云函数 Serverless 架构的自动化工
 TRC20: TBY7e7YUQCG7wEH3PA8pk6fQPwpshb8Z55
 ```
 
+## 使用说明
+已添加Github Action模板,更加方便的使用,无需腾讯云函数(**已不在免费**),自行修改Action Secrets 即可,推荐有基础的用户使用,暂时没精力写教程
+
+## 各家大厂云函数Serverless对比一览表
+
+| 厂商 | 请求次数  | 运行时间          | 流量 | 免费数据库 | 区域              | 备注          |
+|-------------|---------|-----------------|---------|------------|-----------------------|-------------|
+| [AWS](https://aws.amazon.com/cn/serverless/)         | 100万   | 400,000 GB-秒   | 1GB     | 有         | 香港,新加坡,东京     |             |
+| [Azure](https://azure.microsoft.com/en-us/products/functions/)       | 100万   | 400,000 GB-秒   | 5GB     | 有         | 香港,新加坡,日本, | 存储空间需要收费 |
+| [Google Cloud](https://cloud.google.com/functions?hl=zh_cn)| 200万   | 400,000 GB-秒+200,000GHz | 5GB     | 有         | 香港,台湾            |  |
+| [IBM Cloud](https://www.ibm.com/cloud/learn/serverless)   | 无限     | 400,000 GB-秒   | 不明     | 有         | 东京                  |             |
+| ~~[阿里云](https://cn.aliyun.com/product/fc?from_alibabacloud=)~~      | ~~100万~~   | ~~400,000 CU-秒~~   | 无      | 无         | ~~大陆,香港,东京,新加坡~~ |    **不再免费**          |
+| ~~[腾讯云](https://cloud.tencent.com/product/scf)~~       | ~~10万~~    | ~~20,000 GB-秒~~    | ~~0.5GB~~   | ~~无~~         | ~~中国、香港、新加坡~~     | **不再免费**      |
+| ~~[百度云](https://cloud.baidu.com/product/cfc.html)~~       | ~~100万~~   | ~~400,000 GB-秒~~   | ~~1GB~~     | 无         | ~~仅大陆~~                  | **[不再免费](https://cloud.baidu.com/doc/CFC/s/Tl0sz7k6j#%E5%85%8D%E8%B4%B9%E9%A2%9D%E5%BA%A6)**            |
+| [华为云](https://www.huaweicloud.com/product/functiongraph.html)       | 100万   | 400,000 GB-秒   | 不明     | 无         | 大陆,泰国,香港       |             |
+| [**Github Action**](https://docs.github.com/actions)       | 不明   | 不明   | 不明     | 无         | 不明       |             |
+
+> 目前作者用的是Github Action,本项目已经更新了Github Workflow模板,修改即可
+
 ## 截图  
 ![Alt text](image/screenshot1.png)
 
