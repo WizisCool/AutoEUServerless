@@ -1,0 +1,34 @@
+name: Auto EUserv
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # 每天 UTC 时间 00:00 运行
+  workflow_dispatch:
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'  # 或您的特定 Python 版本
+
+    - name: Install dependencies
+      run: |
+        pip install requests beautifulsoup4
+
+    - name: Run script
+      env:
+        EUSERV_USERNAME: ${{ secrets.EUSERV_USERNAME }}
+        EUSERV_PASSWORD: ${{ secrets.EUSERV_PASSWORD }}
+        TRUECAPTCHA_USERID: ${{ secrets.TRUECAPTCHA_USERID }}
+        TRUECAPTCHA_APIKEY: ${{ secrets.TRUECAPTCHA_APIKEY }}
+        TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
+        TG_USER_ID: ${{ secrets.TG_USER_ID }}
+        MAILPARSER_DOWNLOAD_URL_ID: ${{ secrets.MAILPARSER_DOWNLOAD_URL_ID }}
+      run: python Github_Action.py  # 替换为您的脚本文件名
