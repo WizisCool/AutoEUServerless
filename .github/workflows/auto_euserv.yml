@@ -16,7 +16,7 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
-        python-version: '3.6'  # 指定Python3.6
+        python-version: '3.x'  # 指定Python3.x
 
     - name: Install dependencies
       run: |
