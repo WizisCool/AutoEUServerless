@@ -16,7 +16,7 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v2
       with:
-        python-version: '3.x'  # 或您的特定 Python 版本
+        python-version: '3.6'  # 指定Python3.6
 
     - name: Install dependencies
       run: |
@@ -31,4 +31,4 @@ jobs:
         TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEN }}
         TG_USER_ID: ${{ secrets.TG_USER_ID }}
         MAILPARSER_DOWNLOAD_URL_ID: ${{ secrets.MAILPARSER_DOWNLOAD_URL_ID }}
-      run: python Github_Action.py  # 替换为您的脚本文件名
+      run: python Github_Action.py
