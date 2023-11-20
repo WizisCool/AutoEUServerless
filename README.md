@@ -32,16 +32,18 @@ TRC20: TBY7e7YUQCG7wEH3PA8pk6fQPwpshb8Z55
 | 厂商 | 请求次数  | 运行时间          | 流量 | 免费数据库 | 区域              | 备注          |
 |-------------|---------|-----------------|---------|------------|-----------------------|-------------|
 | [AWS](https://aws.amazon.com/cn/serverless/)         | 100万   | 400,000 GB-秒   | 1GB     | 有         | 香港,新加坡,东京     |             |
-| [Azure](https://azure.microsoft.com/en-us/products/functions/)       | 100万   | 400,000 GB-秒   | 5GB     | 有         | 香港,新加坡,日本, | 存储空间需要收费 |
+| [Azure](https://azure.microsoft.com/en-us/products/functions/)       | 100万   | 400,000 GB-秒   | 5GB     | 有         | 香港,新加坡,日本, | **[存储空间需要收费](https://azure.microsoft.com/zh-cn/pricing/details/functions/)** |
 | [Google Cloud](https://cloud.google.com/functions?hl=zh_cn)| 200万   | 400,000 GB-秒+200,000GHz | 5GB     | 有         | 香港,台湾            |  |
 | [IBM Cloud](https://www.ibm.com/cloud/learn/serverless)   | 无限     | 400,000 GB-秒   | 不明     | 有         | 东京                  |             |
-| ~~[阿里云](https://cn.aliyun.com/product/fc?from_alibabacloud=)~~      | ~~100万~~   | ~~400,000 CU-秒~~   | 无      | 无         | ~~大陆,香港,东京,新加坡~~ |    **不再免费**          |
-| ~~[腾讯云](https://cloud.tencent.com/product/scf)~~       | ~~10万~~    | ~~20,000 GB-秒~~    | ~~0.5GB~~   | ~~无~~         | ~~中国、香港、新加坡~~     | **不再免费**      |
+| ~~[阿里云](https://cn.aliyun.com/product/fc?from_alibabacloud=)~~      | ~~100万~~   | ~~400,000 CU-秒~~   | 无      | 无         | ~~大陆,香港,东京,新加坡~~ |    **[不再免费](https://help.aliyun.com/document_detail/2512929.html)**          |
+| ~~[腾讯云](https://cloud.tencent.com/product/scf)~~       | ~~10万~~    | ~~20,000 GB-秒~~    | ~~0.5GB~~   | ~~无~~         | ~~中国、香港、新加坡~~     | **[不再免费](https://cloud.tencent.com/document/product/583/12282)**      |
 | ~~[百度云](https://cloud.baidu.com/product/cfc.html)~~       | ~~100万~~   | ~~400,000 GB-秒~~   | ~~1GB~~     | 无         | ~~仅大陆~~                  | **[不再免费](https://cloud.baidu.com/doc/CFC/s/Tl0sz7k6j#%E5%85%8D%E8%B4%B9%E9%A2%9D%E5%BA%A6)**            |
 | [华为云](https://www.huaweicloud.com/product/functiongraph.html)       | 100万   | 400,000 GB-秒   | 不明     | 无         | 大陆,泰国,香港       |             |
-| [**Github Action**](https://docs.github.com/actions)       | 不明   | 不明   | 不明     | 无         | 不明       |             |
+| [**Github Action**](https://docs.github.com/actions)       | 不明   | 不明   | 不明     | 无         | 不明       |    ***推荐使用***         |
 
-> 目前作者用的是Github Action,本项目已经更新了Github Workflow模板,修改即可
+**目前国内厂家只剩华为一家,估计也要很快收费了
+就EUserV自动续费项目而言,推荐使用Github Action来完成,100%稳定,目前已经更新了Workflow代码
+Fork一个到本地仓库然后点个Star⭐️ 改以下仓库的Action Secrets 即可**
 
 ## 截图  
 ![Alt text](image/screenshot1.png)
