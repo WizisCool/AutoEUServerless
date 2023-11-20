@@ -25,7 +25,7 @@ TRC20: TBY7e7YUQCG7wEH3PA8pk6fQPwpshb8Z55
 ```
 
 ## 使用说明
-已添加Github Action模板,更加方便的使用,无需腾讯云函数(**已不在免费**),自行修改Action Secrets 即可,推荐有基础的用户是由,暂时没精力写教程
+已添加Github Action模板,更加方便的使用,无需腾讯云函数(**已不在免费**),自行修改Action Secrets 即可,推荐有基础的用户使用,暂时没精力写教程
 
 ## 各家大厂云函数Serverless对比一览表
 
