@@ -43,7 +43,7 @@ TRC20: TBY7e7YUQCG7wEH3PA8pk6fQPwpshb8Z55
 
 **目前国内厂家只剩华为一家,估计也要很快收费了
 就EUserV自动续费项目而言,推荐使用Github Action来完成,100%稳定,目前已经更新了Workflow代码
-Fork一个到本地仓库然后点个Star⭐️ 改以下仓库的Action Secrets 即可**
+Fork一个到自己的仓库然后点个Star⭐️ 改一下仓库的Action Secrets 即可**
 
 ## 截图  
 ![Alt text](image/screenshot1.png)
